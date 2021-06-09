@@ -15,6 +15,7 @@ Jeremy has been tasked by upper management to review the production data for ins
 ## Linear Regression to Predict MPG
 
 
+
 ## Visualizations for the Trip Analysis
 
 
