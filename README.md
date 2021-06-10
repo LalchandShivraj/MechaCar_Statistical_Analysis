@@ -24,4 +24,4 @@ Jeremy has been tasked by upper management to review the production data for ins
 
 
 
-## Design a Study Comparing the MechaCar to the Competition
+## Study Design: MechaCar vs Competition
