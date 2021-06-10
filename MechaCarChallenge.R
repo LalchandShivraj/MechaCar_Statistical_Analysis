@@ -23,4 +23,7 @@ total_summary <- Susp_Coil_df %>% summarize(Mean=mean(PSI),
                 SD=sd(PSI), .groups = 'keep')
 total_summary
 
+lot_summary <- Susp_Coil_df %>% group_by(Manufacturing_Lot) %>% 
+               summarize(mean(PSI),median(PSI),var(PSI), sd(PSI), .groups= 'keep')
+lot_summary
 

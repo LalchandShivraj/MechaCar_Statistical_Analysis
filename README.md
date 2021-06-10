@@ -16,7 +16,7 @@ Jeremy has been tasked by upper management to review the production data for ins
 
 
 
-## Visualizations for the Trip Analysis
+## Summary Statistics on Suspension Coils
 
 
 
