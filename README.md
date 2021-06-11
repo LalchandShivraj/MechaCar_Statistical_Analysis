@@ -14,6 +14,11 @@ Jeremy has been tasked by upper management to review the production data for ins
 
 ## Linear Regression to Predict MPG
 
+Since none of the coefficients or M value equals zero (0), the Ha hypothesis is true for all and thus there are no non-random amount of variance to the MPG values.
+<br>
+The p-value (5.35e-11) is less that the assumed significance level of 0.05%. Thus there is sufficient evidence to reject the null hypothesis and state that the slope of the linear model is NOT zero.
+<br>
+The r-squared value of 0.7149 or approximately 71% reveals the percentage of the data that fit the regression model. Although  this may be an acceptable prediction, a higher r-squared value is desirable.
 
 
 ## Summary Statistics on Suspension Coils
