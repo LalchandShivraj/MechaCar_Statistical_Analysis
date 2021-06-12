@@ -8,11 +8,14 @@ Jeremy has been tasked by upper management to review the production data for ins
 1.	Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 2.	Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 3.	Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-4.	Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+4.	Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, youâ€™ll write a summary interpretation of the findings.
 
 # Results
 
 ## Linear Regression to Predict MPG
+
+![Del1_Coefficients](https://user-images.githubusercontent.com/78666055/121778002-d7a3c580-cb62-11eb-8b5c-aeedf082f537.png)
+![Del1_p_and_r_squared_values](https://user-images.githubusercontent.com/78666055/121778007-dd99a680-cb62-11eb-951b-f23938d39622.png)
 
 Since none of the coefficients or M value equals zero (0), the Ha hypothesis is true for all and thus there are no non-random amount of variance to the MPG values.
 <br>
