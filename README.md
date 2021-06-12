@@ -28,14 +28,23 @@ The r-squared value of 0.7149 or approximately 71% reveals the percentage of the
 
 ## Summary Statistics on Suspension Coils
 
+![Del2_suspension_coil_total_summary](https://user-images.githubusercontent.com/78666055/121778031-face7500-cb62-11eb-8d10-c0ea9fd7cb97.png)
+![Del2_suspension_lot_summary](https://user-images.githubusercontent.com/78666055/121778035-fc983880-cb62-11eb-9f94-183e59b326a1.png)
+
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100. The total_summary variance shows a variance of 62.29 which would suggest specifications are met. However, LOT 3 has a variance of 170 which does not meet the specs.
 
 
 ## T-Tests on Suspension Coils
 
+![Del3_overall_t_test](https://user-images.githubusercontent.com/78666055/121778042-09b52780-cb63-11eb-8df9-25dc9ea92fd4.png)
+
 Here the One Sample t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 <br>
 <br>
+![Del3_lot2_t_test](https://user-images.githubusercontent.com/78666055/121778047-13d72600-cb63-11eb-9453-d48cf50c2fda.png)
+![Del3_lot2_t_test](https://user-images.githubusercontent.com/78666055/121778050-15085300-cb63-11eb-98ef-159364649910.png)
+![Del3_lot3_t_test](https://user-images.githubusercontent.com/78666055/121778053-16d21680-cb63-11eb-865d-7b6fcc9f1da1.png)
+
 The overall t-test: p-value of 0.06 is greater then 0.05 and thus there is not sufficient evidence to reject the null hypothesis.
 The t-tests by lots shows lot 1 and 2 as not having sufficient evidence to reject the null hypothesis. However, lot 3 has a p-value of 0.04 which is less than 0.05 and therefore can be rejected.
 
