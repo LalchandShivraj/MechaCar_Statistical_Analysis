@@ -16,17 +16,40 @@ Jeremy has been tasked by upper management to review the production data for ins
 
 Since none of the coefficients or M value equals zero (0), the Ha hypothesis is true for all and thus there are no non-random amount of variance to the MPG values.
 <br>
+<br>
 The p-value (5.35e-11) is less that the assumed significance level of 0.05%. Thus there is sufficient evidence to reject the null hypothesis and state that the slope of the linear model is NOT zero.
+<br>
 <br>
 The r-squared value of 0.7149 or approximately 71% reveals the percentage of the data that fit the regression model. Although  this may be an acceptable prediction, a higher r-squared value is desirable.
 
 
 ## Summary Statistics on Suspension Coils
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100. The total_summary variance shows a variance of 62.29 which would suggest specifications are met. However, LOT 3 has a variance of 170 which does not meet the specs.
 
 
 ## T-Tests on Suspension Coils
 
+Here the One Sample t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+<br>
+<br>
+The overall t-test: p-value of 0.06 is greater then 0.05 and thus there is not sufficient evidence to reject the null hypothesis.
+The t-tests by lots shows lot 1 and 2 as not having sufficient evidence to reject the null hypothesis. However, lot 3 has a p-value of 0.04 which is less than 0.05 and therefore can be rejected.
 
 
 ## Study Design: MechaCar vs Competition
+
+Fuel efficiency, Safety Rating, Size, Maintenance Costs are all key metrics when considering buying a car. However, the Cost or price one pays for the car becomes the most important thing.
+<br>
+<br>
+The Null Hypothesis is there is no statistical difference between the MechaCar and its competitors.
+The Alternative Hypothesis is there is statistical difference between the MechaCar and its competitors.
+<br>
+<br>
+A two-way ANOVA test can be used to test the mean of the Selling Price with independent variable: MPG and Size.
+<br>
+<br>
+Data (Selling price, MPG, vehicle size) from comparable vehicles in the same class would be required.
+
+
+ 
